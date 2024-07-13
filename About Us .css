@@ -1,0 +1,90 @@
+* {
+  margin: 0%;
+
+  padding: 0%;
+}
+:root {
+  --navbar-height: 59px;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/*lofo  navbar*/
+#logo img {
+  height: 100px;
+  border-radius: 100%;
+  margin: 10px 35px;
+}
+#logo {
+  margin: 10px;
+}
+#navbar ul {
+  display: flex;
+
+  list-style: none;
+}
+#navbar::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.4;
+}
+#navbar ul li {
+  list-style: none;
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#navbar ul li a {
+  display: block;
+  padding: 3px 22px;
+  text-decoration: none;
+  border-radius: 20px;
+  color: white;
+  background-color: rgb(66, 113, 113);
+  margin: 10px;
+}
+#navbar ul li a:hover {
+  color: black;
+  background-color: white;
+}
+sec1 {
+  display: flex;
+  flex-direction: column;
+  padding: 3px 200px;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+#sec1::before {
+  content: "";
+  position: absolute;
+  background: url("/hs/R.jpeg") no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 1;
+  background-attachment: fixed;
+}
+h2 {
+  color: red;
+  padding: 10px;
+  background-color: lawngreen;
+}
+h1 {
+  color: lawngreen;
+  background-color: red;
+}
+.Branches {
+  color: rgb(232, 12, 170);
+}
+#img2 {
+  margin: 10px;
+  box-shadow: 6px 6px red;
+}
