@@ -1,2 +1,2 @@
-# mymajor_project2
-its all major project code real
+# mymajor_project
+Major project code real
